@@ -1,0 +1,9 @@
+NAME : Tanner Hussain 	SCORE : 15
+NAME : Laiba Babar 	SCORE : 30
+NAME : Ahsan Yasin 	SCORE : 45
+NAME : Meerub 		SCORE : 310
+NAME : Snek Eyes 	SCORE : 305
+NAME : Zaid 	SCORE : 310
+NAME : Ahsan	SCORE : 300
+NAME : Amna Nouman	SCORE : 45
+NAME : Ahmad  Abdullah 	SCORE : 230
