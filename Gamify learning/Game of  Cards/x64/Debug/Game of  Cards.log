@@ -1,0 +1,68 @@
+﻿  AddStudent.cpp
+  Game.cpp
+  GameSelect.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21): warning C4570: 'GameofCards::GameMain': is not explicitly declared as abstract but has abstract functions
+  (compiling source file 'GameSelect.cpp')
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21):
+      'void GameofCards::GameMain::set(void)': is abstract
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(23,16):
+      see declaration of 'GameofCards::GameMain::set'
+  
+  MainGame.cpp
+  MyMenu.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21): warning C4570: 'GameofCards::GameMain': is not explicitly declared as abstract but has abstract functions
+  (compiling source file 'MyMenu.cpp')
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21):
+      'void GameofCards::GameMain::set(void)': is abstract
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(23,16):
+      see declaration of 'GameofCards::GameMain::set'
+  
+  OtherGame.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21): warning C4570: 'GameofCards::GameMain': is not explicitly declared as abstract but has abstract functions
+  (compiling source file 'OtherGame.cpp')
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21):
+      'void GameofCards::GameMain::set(void)': is abstract
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(23,16):
+      see declaration of 'GameofCards::GameMain::set'
+  
+  Play.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21): warning C4570: 'GameofCards::GameMain': is not explicitly declared as abstract but has abstract functions
+  (compiling source file 'Play.cpp')
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21):
+      'void GameofCards::GameMain::set(void)': is abstract
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(23,16):
+      see declaration of 'GameofCards::GameMain::set'
+  
+  puzzle.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21): warning C4570: 'GameofCards::GameMain': is not explicitly declared as abstract but has abstract functions
+  (compiling source file 'puzzle.cpp')
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21):
+      'void GameofCards::GameMain::set(void)': is abstract
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(23,16):
+      see declaration of 'GameofCards::GameMain::set'
+  
+  Quiz.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21): warning C4570: 'GameofCards::GameMain': is not explicitly declared as abstract but has abstract functions
+  (compiling source file 'Quiz.cpp')
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(15,21):
+      'void GameofCards::GameMain::set(void)': is abstract
+      D:\C++\PRojects\my guithub\Game of  Cards\object.h(23,16):
+      see declaration of 'GameofCards::GameMain::set'
+  
+  Record.cpp
+  Student.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\Student.cpp(59,90): warning C4129: 'T': unrecognized character escape sequence
+  Teacher.cpp
+D:\C++\PRojects\my guithub\Game of  Cards\Teacher.cpp(41,46): warning C4390: ';': empty controlled statement found; is this the intent?
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(994,1): warning C4715: 'GameofCards::MainGame::getPic': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(1039,1): warning C4715: 'GameofCards::MainGame::getTxt': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(994,1): warning C4715: 'GameofCards::MainGame::getPic': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(1039,1): warning C4715: 'GameofCards::MainGame::getTxt': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(994,1): warning C4715: 'GameofCards::MainGame::getPic': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(1039,1): warning C4715: 'GameofCards::MainGame::getTxt': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(994,1): warning C4715: 'GameofCards::MainGame::getPic': not all control paths return a value
+D:\C++\PRojects\my guithub\Game of  Cards\MainGame.h(1039,1): warning C4715: 'GameofCards::MainGame::getTxt': not all control paths return a value
+  AddStudent.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Game of  Cards.vcxproj -> D:\C++\PRojects\my guithub\Game of  Cards\x64\Debug\Game of  Cards.exe
