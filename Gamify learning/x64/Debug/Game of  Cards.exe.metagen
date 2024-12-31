@@ -1,0 +1,103 @@
+  GameofCards.AddStudent.resources - Embedded, ContainedInManifestFile, 
+  GameofCards.GameSelect.resources - Embedded, ContainedInManifestFile, 
+  GameofCards.MainGame.resources - Embedded, ContainedInManifestFile, 
+  GameofCards.MyMenu.resources - Embedded, ContainedInManifestFile, 
+  GameofCards.OtherGame.resources - Embedded, ContainedInManifestFile, 
+  GameofCards.Play.resources - Embedded, ContainedInManifestFile, 
+  GameofCards.Record.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Game of  Cards, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GameofCards.student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setSection(String): PrivateScope, Public, HideBySig
+    setName(String): PrivateScope, Public, HideBySig
+    setRollno(String): PrivateScope, Public, HideBySig
+    setScore(Int32): PrivateScope, Public, HideBySig
+    store(String): PrivateScope, Public, HideBySig
+    getName(): PrivateScope, Public, HideBySig
+    ShowProgress(): PrivateScope, Public, HideBySig
+    getHistory(): PrivateScope, Public, HideBySig
+Class GameofCards.teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    addStudent(student): PrivateScope, Public, HideBySig
+    Display(): PrivateScope, Public, HideBySig
+    searchStudent(String): PrivateScope, Public, HideBySig
+Class GameofCards.AddStudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(GameofCards.teacher): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GameofCards.card: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Number : Public
+    System.String Text : Public
+    Boolean isMatch : Public
+    Int32 Id : Public
+    Int32 cardNumber : Public
+  Methods:
+    set(Int32, String, Boolean(HasFieldMarshal), Int32, Int32): PrivateScope, Public, HideBySig
+Class GameofCards.Game: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GameofCards.card[] CardsArray : Public
+  Methods:
+    allocatedMemory(): PrivateScope, Public, HideBySig
+    setMath(): PrivateScope, Public, HideBySig
+    setPF(): PrivateScope, Public, HideBySig
+    setCards(): PrivateScope, Public, HideBySig
+    Mix(): PrivateScope, Public, HideBySig
+    CalculateScore(): PrivateScope, Public, HideBySig
+Class GameofCards.GameMain: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String[] Questions : Public
+    System.String[] Answers : Public
+  Methods:
+    set(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class GameofCards.Quiz: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GameofCards.GameMain
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    set(): PrivateScope, Public, Virtual, HideBySig
+Class GameofCards.puzzle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GameofCards.GameMain
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    set(): PrivateScope, Public, Virtual, HideBySig
+Class GameofCards.OtherGame: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, GameofCards.student): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GameofCards.MainGame: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, GameofCards.student): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setValues(): PrivateScope, Public, HideBySig
+    setText(): PrivateScope, Public, HideBySig
+Class GameofCards.Play: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(GameofCards.student): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GameofCards.GameSelect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(GameofCards.teacher): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GameofCards.Record: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setDisplay(String, String): PrivateScope, Public, HideBySig
+Class GameofCards.MyMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
